@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Editing Workflow"
+  short_description: "Analyze local videos and prepare editable vlog projects."
+  default_prompt: "Analyze these local videos into a project folder, create per-clip markdown timelines, draft a vlog script and AI editing guide, then generate ordered pre-cut clips and SRT subtitles for import into Jianying/CapCut."
