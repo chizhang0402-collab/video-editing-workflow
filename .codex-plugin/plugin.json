@@ -1,0 +1,39 @@
+{
+  "name": "video-editing-workflow",
+  "version": "0.1.0",
+  "description": "Analyze local videos and prepare editable vlog projects with timelines, scripts, pre-cut clips, and subtitles.",
+  "author": {
+    "name": "Chi Zhang",
+    "url": "https://github.com/chizhang0402-collab"
+  },
+  "homepage": "https://github.com/chizhang0402-collab/video-editing-workflow",
+  "repository": "https://github.com/chizhang0402-collab/video-editing-workflow",
+  "keywords": [
+    "video-editing",
+    "vlog",
+    "jianying",
+    "capcut",
+    "ffmpeg",
+    "subtitles"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Video Editing Workflow",
+    "shortDescription": "Analyze local videos and prepare editable vlog projects.",
+    "longDescription": "Turn local source videos into an organized editing project with per-video markdown timelines, a vlog script, an AI editing guide, ordered pre-cut clips, and SRT subtitles for Jianying or CapCut.",
+    "developerName": "Chi Zhang",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Local Files",
+      "Video"
+    ],
+    "websiteURL": "https://github.com/chizhang0402-collab/video-editing-workflow",
+    "defaultPrompt": [
+      "Analyze these videos into a vlog project.",
+      "Generate pre-cut clips and SRT subtitles.",
+      "Create a Jianying editing guide."
+    ],
+    "brandColor": "#E11D48"
+  }
+}

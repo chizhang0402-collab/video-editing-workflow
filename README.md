@@ -28,7 +28,7 @@ The workflow is designed for creators who want AI help with the planning and rou
     └── prepare_clips.py
 ```
 
-## Installation
+## Installation As A Skill
 
 Clone or copy this folder into your Codex skills directory:
 
@@ -42,6 +42,22 @@ If the skill is already installed locally, update it with:
 ```bash
 git -C ~/.codex/skills/video-editing-workflow pull
 ```
+
+## Installation As A Plugin
+
+This repository also includes a Codex plugin manifest:
+
+```text
+.codex-plugin/plugin.json
+```
+
+The plugin points Codex to the bundled skill at:
+
+```text
+skills/video-editing-workflow/
+```
+
+To use it as a plugin package, install the GitHub repository through Codex plugin installation when supported, or clone it into a local plugin directory and register that directory in your Codex plugin marketplace configuration.
 
 ## Requirements
 
